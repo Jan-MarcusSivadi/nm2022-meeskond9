@@ -1,0 +1,58 @@
+<%- include('partials/header') %>
+
+<link rel="stylesheet" href="css/game-style.css">
+<title>Home</title>
+</head>
+<body>
+<%- include('partials/navbar') %>
+<div class="container-main">
+
+
+    <div class="row">
+      <div class="col-sm shadow">
+        <h1 >Harjutuse Info</h1>
+        <h2 >Milleks on see harjutus kasulik?</h2> <br>
+        <p style= "font-size: 18px;">Kui me hingamisviisis mingit muutust ei loo, siis paljud seisundid, mis sageli meile probleemiks on,<br>
+          ei pruugi nii kiiresti muutuda, kui loodetakse. Olgu see siis seotud tervise, enesetunde,<br> 
+          meeleoluga või on emotsioonid liiga keevalised. Hingamisega me saame seda kõike mõjutada. <br> 
+          Hingamissügavust ja hingamisviisi muutes on võimalik luua muutusi erinevatesse seisunditesse, end vabamaks lasta, <br>
+          lõdvestuda ja end paremini tunda.</p>
+      </div>
+      <div class="col-sm">
+        <div class="input">
+          <label>Vali Mitu Hingetõmmet soovid teha</label>
+          <select class="breath-input">
+            <option value="3">3 Hingetõmmet (Soovitatud)</option>
+            <option value="5">5 Hingetõmmet</option>
+            <option value="7">7 Hingetõmmet</option>
+          </select>
+        </div>
+        <div class="circle-wrap">
+          <div class="circle-outline"></div>
+          <div class="circle-progress"></div>
+        </div>
+        <p class="breaths">Hingamiste arv: <span class="breaths-text">3</span></p>
+        <p class="instructions">Oled sa valmis alustama?</p>
+        <button class="start">Alusta</button>
+    </div>
+
+  </div>
+    
+</div>
+<script src="javascript/voice.js"></script>
+<script src="https://code.responsivevoice.org/responsivevoice.js?key=fJzSaOUt"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<%- include('partials/footer') %>
+
+  <script src="javascript/game.js"></script>
+<!-- Start of ChatBot (www.chatbot.com) code -->
+<script type="text/javascript">
+  window.__be = window.__be || {};
+  window.__be.id = "637f98d2aaa59f00072f084e";
+  (function() {
+      var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+      be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+  })();
+</script>
+<!-- End of ChatBot code -->

@@ -1,0 +1,54 @@
+body {
+  background: #E1AD9D;
+  
+}
+
+/* {box-sizing: border-box;}*/
+
+
+.white {
+  color: white;
+}
+
+.tasktext {
+  margin-top: 13rem;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.headertext {
+  color: white;
+}
+
+.task {
+  background-color: lightgray;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 12rem;
+  height: 12rem;
+  border: 2px solid black;
+  border-radius: 40px;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: contain !important;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+
+.task:hover {
+  border-color: greenyellow;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: lightgray;
+}
+
+
+
+.test1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

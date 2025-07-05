@@ -1,0 +1,38 @@
+<%- include('partials/header') %>
+    <%- include('partials/header') %>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Home</title>
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+    <div class="container-fluid test1 mt-3 from-group">
+        <div class="container mt-2 test2">
+          <div class="row justify-content-center mt-1 from-group">
+            <a href="/game" class="task" style="background: url('images/breathe.jpeg')"><p class="tasktext">Hingamis Harjutused</p></a>
+            <a href="/questions" class="task" style="background: url('images/mental.png')"><p class="tasktext">Vaimse tervise Test</p></a>
+          </div>
+            
+          <div class="row justify-content-center mt-5">
+            <a href="/learngame" class="task" style="background: url('images/download.png')"><p class="tasktext">Õpi mäng</p></a>
+            <a href="/abc" class="task" style="background: url('images/ABC.png')"><p class="tasktext">Ärevuse ABC</p></a>
+            <!-- <a href="/questions" class="task" style="background: url('images/mental.png')"><p class="tasktext">Vaimse tervise Test</p></a> -->
+          </div>
+            
+        </div>
+    </div>
+    <script src="javascript/voice.js"></script>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=fJzSaOUt"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<!-- Start of ChatBot (www.chatbot.com) code -->
+<script type="text/javascript">
+    window.__be = window.__be || {};
+    window.__be.id = "637f98d2aaa59f00072f084e";
+    (function() {
+        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+    })();
+  </script>
+  <!-- End of ChatBot code -->
+<%- include('partials/footer') %>

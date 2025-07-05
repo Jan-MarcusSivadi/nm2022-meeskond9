@@ -1,0 +1,70 @@
+<%- include('partials/header') %>
+<%- include('partials/header') %>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+    <div class="start_btn"><button>Alusta õpimängu</button>
+    </div>
+  
+
+    <div class="info_box">
+        <div class="info-title"><span>õpimängu reeglid</span></div>
+        <div class="info-list">
+            <div class="info">1. Sul on <span>15 sekundit</span> iga küsimuse jaoks.</div>
+            <div class="info">2. Kui oled küsimuse ära vastanud pärast enam ei saa</div>
+            <div class="info">3. Sa ei saa muuta midagi kui aeg on läbi.</div>
+            <div class="info">4. Sa ei saa lahkuda mängust kui mäng käib.</div>
+            <div class="info">5. Sa saad punkte iga õige vastuse eest.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Lõpeta</button>
+            <button class="restart">Edasi</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Õpimäng ärevus</div>
+            <div class="timer">
+                <div class="time_left_txt">Aega järel</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Järgmine</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Sa oled lõpetanud õpimängu!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Mängi uuesti</button>
+            <button class="quit">Lahku</button>
+        </div>
+    </div>
+
+
+
+    
+
+    <script src="javascript/questions.js"></script>
+    <script src="javascript/script.js"></script>
+
